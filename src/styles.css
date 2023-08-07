@@ -1,0 +1,91 @@
+/* styles.css */
+
+table {
+  width: 480px;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr {
+  border-bottom: 1px solid #ccc;
+  cursor: pointer; /* Изменяем вид курсора для всех строк */
+}
+
+tr.active {
+  background-color: #f5f5f5; /* Изменяем фон для активной строки */
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+/* Стили для ссылки при наведении */
+a {
+  color: #007bff;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #3e3f3f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+button:hover {
+  background-color: #6d6c6c;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.react-modal {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 600px; /* Изменяем ширину модального окна */
+  margin: 0 auto;
+}
+
+.react-modal table {
+  width: 100%; /* Растягиваем таблицу на всю ширину модального окна */
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.react-modal th,
+.react-modal td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.react-modal th {
+  background-color: #f2f2f2;
+}
+
+.react-modal tr {
+  border-bottom: 1px solid #ccc;
+}
+
+.react-modal tr:last-child {
+  border-bottom: none;
+}
